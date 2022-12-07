@@ -4,8 +4,8 @@
 KEY GENERATION
 1.	Compute φ(n) = (p − 1)(q − 1)
 2.	Randomly generate e s.t.    e · d mod φ(n) = 1
-3.	Public-key pk = (e, n)
-4.	Private-key sk = (d, p, q)
+3.	Public-key p<sub>k</sub> = (e, n)
+4.	Private-key s<sub>k</sub> = (d, p, q)
 
 ENCRYPTION c ← E(p<sub>k</sub>, m)
 1.	Randomly message m ϵ Z<sub>n</sub>
