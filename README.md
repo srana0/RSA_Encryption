@@ -3,23 +3,21 @@
 
 KEY GENERATION
 1.	Compute φ(n) = (p − 1)(q − 1)
-2.	Randomly generate e s.t. e · d mod φ(n) = 1
+2.	Randomly generate e s.t.    e · d mod φ(n) = 1
 3.	Public-key pk = (e, n)
 4.	Private-key sk = (d, p, q)
 
-ENCRYPTION c ← E(pk, m)
-1.	Randomly message m ϵ Zn
+ENCRYPTION c ← E(p<sub>k</sub>, m)
+1.	Randomly message m ϵ Z<sub>n</sub>
 2.	Compute c = m<sup>e</sup> mod n
 3.	Return c
 
-DECRYPTION mJ ← D(sk, c) 
-1.	Compute mJ = cd mod n
-2.	Return mJ
+DECRYPTION m' ← D(s<sub>k</sub>, c) 
+1.	Compute m' = cd mod n
+2.	Return m'
 
 
 
- Randomly message m ∈ Zn 1. Compute m0 = c d mod n
-c ← E(pk, m) Decryption m0 ← D(sk, c)
 
 RSA Parameters
 p =
