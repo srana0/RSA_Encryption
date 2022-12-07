@@ -9,7 +9,7 @@ KEY GENERATION
 
 ENCRYPTION c ← E(pk, m)
 1.	Randomly message m ϵ Zn
-2.	Compute c = m^e mod n
+2.	Compute c = m<sup>e</sup> mod n
 3.	Return c
 
 DECRYPTION mJ ← D(sk, c) 
