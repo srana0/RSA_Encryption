@@ -35,22 +35,23 @@ q = 4940095716354775745252877534656042064535382750446981370244709505724199840335
 760306974196552067736902898897585691
 
 # Sample Ouput
-Sample I/O:
 The first prime is p =
 The second prime is q =
 The composite modulus n =
 The encryption exponent e =
 The decryption exponent d =
-----------------------------
-Please enter an option:
+
+Please enter an option.
 1 to Encrypt
 2 to Decrypt
 Your option:
-----------------------------
+
+
 Encryption:
-Plaintext (randomly generate) to be encrypted is m =
-Ciphertext is c =
-----------------------------
+Plaintext (randomly generated) to be encrypted is m 
+The ciphertext is c 
+
 Decryption:
-Ciphertext to be decrypted is c =
-Decrypted plaintext is m =
+The ciphertext to be decrypted is c 
+Decrypted plaintext is m 
+
