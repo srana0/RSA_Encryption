@@ -1,5 +1,7 @@
 # RSA_Encryption
-
+Please implement the key generation, encryption, and decryption algorithms of the RSA public key scheme either in C using GMP, Java using BigInteger, or Python using gmpy library for a 128-bit
+security level. The large primes p and q are provided in the parameters section (on the last page), where the sizes of p and q are about 1538 bits. For convenience, these three algorithms are described
+below. You are prohibited from using any RSA code available on the Internet or other sources and RSA APIs available in your programming language libraries.
 
 KEY GENERATION
 1.	Compute φ(n) = (p − 1)(q − 1)
